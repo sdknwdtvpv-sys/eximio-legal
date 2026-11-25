@@ -117,14 +117,14 @@
   <p class="sub">照片海选工具 · 生效日期 2026 年 11 月 25 日</p>
 
   <div class="summary">
-    <strong>一句话：照片、评分和设置全部留在你的设备上。</strong>
+    <strong>一句话：照片、整理结果和设置全部留在你的设备上。</strong>
     Eximio 不上传照片，不建立账号，不接入任何第三方统计或广告 SDK。
     完整版购买由 Apple 的 App Store 处理，Eximio 只读到「是否已解锁」这一个结果。
   </div>
 
   <h2>01 · 读取什么</h2>
   <ul>
-    <li><strong>你选定时间范围内的照片。</strong>用于在过图页显示、做模糊 / 重复 / 闭眼 / 曝光分析、记录评分。</li>
+    <li><strong>你选定时间范围内的照片。</strong>用于在过图页显示、做模糊 / 重复 / 闭眼 / 曝光分析、记录整理结果。</li>
     <li><strong>照片的原始文件名。</strong>只在你导出 Lightroom 边车（.xmp / .csv）时读取，让边车文件与照片同名；否则 Lightroom 认不出来。</li>
     <li>以上内容只在运行期间存在于内存里，退出即散，不会留下副本。</li>
   </ul>
@@ -135,7 +135,7 @@
 
   <h2>03 · 本机保存了什么</h2>
   <ul>
-    <li><strong>评分：</strong>按系统给每张照片的唯一标识符记一个星数，下次整理同一批照片时还在。</li>
+    <li><strong>整理结果：</strong>按系统给每张照片的唯一标识符记一个星数，下次整理同一批照片时还在。</li>
     <li><strong>设置项：</strong>模糊阈值、重复阈值、闭眼档位、曝光开关、精选门槛、提醒开关、外观选择。</li>
     <li><strong>待删清单：</strong>已经标记、但还没提交给系统相册的那几张。</li>
     <li><strong>解锁状态：</strong>一个「完整版是否已解锁」的布尔值，用于打开 App 时先显示正确状态；每次启动仍会向 StoreKit 重新核对。</li>
@@ -144,7 +144,7 @@
 
   <h2>04 · 不做什么</h2>
   <ul class="no">
-    <li>不上传照片，也不把照片或评分备份到任何服务器；没有云端账号。</li>
+    <li>不上传照片，也不把照片或整理结果备份到任何服务器；没有云端账号。</li>
     <li>不做统计上报，不做崩溃收集，不接广告 SDK。</li>
     <li>不读通讯录、定位、麦克风、健康等与整理照片无关的数据。</li>
     <li>不做用户画像，不跟踪你。</li>
@@ -186,14 +186,14 @@
     <p class="sub">Eximio · Effective November 25, 2026</p>
 
     <div class="summary">
-      <strong>In one sentence: your photos, ratings and settings stay on your device.</strong>
+      <strong>In one sentence: your photos, keep/reject marks and settings stay on your device.</strong>
       Eximio does not upload photos, does not create an account, and ships no third-party analytics or advertising SDKs.
       The optional one-time unlock is processed by Apple's App Store; Eximio only learns whether the product is unlocked.
     </div>
 
     <h3>What Eximio reads</h3>
     <ul>
-      <li>Photos within the time range you choose, to display them, run blur / duplicate / closed-eye / exposure analysis, and record ratings.</li>
+      <li>Photos within the time range you choose, to display them, run blur / duplicate / closed-eye / exposure analysis, and record keep/reject marks.</li>
       <li>Original filenames, only when you export Lightroom sidecars (.xmp / .csv), so the sidecar matches the photo.</li>
       <li>Nothing is written to disk except the data listed under “What is stored on device”.</li>
     </ul>
@@ -211,7 +211,7 @@
 
     <h3>What Eximio does not do</h3>
     <ul class="no">
-      <li>No uploads, no cloud account, no backup of photos or ratings.</li>
+      <li>No uploads, no cloud account, no backup of photos or keep/reject marks.</li>
       <li>No analytics, no crash reporting, no advertising SDKs.</li>
       <li>No access to contacts, location, microphone or health data.</li>
       <li>No profiling, no tracking.</li>
